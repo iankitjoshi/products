@@ -22,7 +22,7 @@ function App(props){
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
 
         <img src={img} className="indian-flag" /> <br />
-        <h2 className="unite-india">Unite Indian, Be Indian..</h2>
+        <h2 className="unite-india">Unite Indian, Be Indian...</h2>
         {/* <Link to="/"> Home  </Link> |
         <Link to="/products">Products</Link> */}
 

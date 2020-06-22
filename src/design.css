@@ -55,19 +55,25 @@
 }
 
 .nav-home{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto Slab', serif;
+
 
 }
 
 .navI-products{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto Slab', serif;
+
     margin-left: 10%;
     margin-right: -14%;
 
 }
 
 .navC-products{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto Slab', serif;
+
     margin-left: 15%;
     margin-right: -18%;
 
@@ -77,8 +83,9 @@
     margin-right: 10%;
 }
 
-.link2{
-
+.aatmnirbhar{
+    width: 100%;
+    height: 10%;
 }
 
 .product-list{
@@ -113,11 +120,22 @@
 
 .li-tags-product{
     margin-left: 2%;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
 }
 
 .lists{
     margin-left: 5%;
     margin-right: 55%;
+}
+
+.container {
+    width: 80%;
+    padding-right: 35px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .list-div{
