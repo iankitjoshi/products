@@ -1,5 +1,4 @@
 import React from 'react'
-const img = require('../assets/aatma-nirbhar-bharat.jpg')
 
 function Home(props){
     return(
@@ -7,8 +6,8 @@ function Home(props){
             
             <div style={{textAlign:'center'}}>  
                 <h5 style={{fontFamily:'Times-New-Roman',marginTop:'1.5%',color:'#08236C'}}>For Check and Remove Chinese app from your mobile:-</h5> 
-                <span className="link1"> <u><a style={{color:'#08236C',fontSize:'20px',fontFamily:'Times-New-Roman'}} href="https://appsgag.com/en/remove-china-apps/download/1.1" target="_blank"> Download Now </a>  </u></span>
-                <span className="link2"> <u><a style={{color:'#08236C',fontSize:'20px',fontFamily:'Times-New-Roman'}} href="http://ctri.org.in/wp-content/uploads/2020/06/Remove%20China%20Apps.apk" target="_blank"> Download Now </a>  </u></span>
+                <span className="link1"> <u><a style={{color:'#08236C',fontSize:'20px',fontFamily:'Times-New-Roman'}} href="https://appsgag.com/en/remove-china-apps/download/1.1" target="_blank" rel="noopener noreferrer" > Download Now </a>  </u></span>
+                <span className="link2"> <u><a style={{color:'#08236C',fontSize:'20px',fontFamily:'Times-New-Roman'}} href="http://ctri.org.in/wp-content/uploads/2020/06/Remove%20China%20Apps.apk" target="_blank" rel="noopener noreferrer" > Download Now </a>  </u></span>
             </div>
 
             <div style={{marginTop:'4%'}} className="container">

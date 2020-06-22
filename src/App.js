@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Link} from 'react-router-dom'
+import { BrowserRouter, Route, } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './component/Home'
@@ -21,7 +21,7 @@ function App(props){
 
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
 
-        <img src={img} className="indian-flag" /> <br />
+        <img src={img} alt="flag" className="indian-flag" /> <br />
         <h2 className="unite-india">Unite Indian, Be Indian...</h2>
         {/* <Link to="/"> Home  </Link> |
         <Link to="/products">Products</Link> */}
