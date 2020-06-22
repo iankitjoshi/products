@@ -22,7 +22,7 @@ class MobileProducts extends React.Component{
                     return(
                             <div className="col" key={i}>
                                 <div className="card mobile-card" >
-                                    <div class="card-body card-mobile1" key={i}>
+                                    <div className="card-body card-mobile1" key={i}>
                                         <h5 className="card-title h1-mobile">{mobile}</h5>
                                     </div>
                                 </div>

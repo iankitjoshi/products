@@ -18,14 +18,14 @@
     /* top: 50%; */
     font-family: 'Noto Serif', serif;
     font-size: 1.5vw;
-
+    color: rgb(5, 45, 78); 
 }
 
 .mobile-card{
     height: 99%;
     width: 114%;
     border-radius: 0px;
-    border-color: black;
+    border-color: rgb(6, 57, 99); 
     text-align: center;
     /* vertical-align: middle; */
     margin-top: 10%;
@@ -33,9 +33,13 @@
 }
 
 .card-mobile1{
-    margin-top: 15%;
+    margin-top: 25%;
+    margin-bottom: 13%;
+    padding: 0;
 }
-
+.card-body{
+    padding: 0;
+}
 .nav-css{
     border-radius: 30px;
     margin-right: 5%;

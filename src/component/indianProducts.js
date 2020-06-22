@@ -170,7 +170,7 @@ class IndianProducts extends React.Component{
                <li className="li-tag"> <h6 className="product-list" >Swadeshi Indian Footwear Products / Brand Name :</h6> <p className="list-products" > Paragon, Lakhani , Chavda, Khadims, VKC Pride, Lunar Footwear </p> </li>
                 </ul>
                 <br /><br />
-                <h5 className="li-tag product-list"> * -You Can Buy from Patanjli , Modicare and some of inidian Companies.-</h5>
+                <h5 className="li-tag product-list"> *  -You Can Buy from Patanjali, Modicare and some of Indian Companies.-</h5>
             </div>
         )
     }
