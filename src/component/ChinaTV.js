@@ -4,7 +4,7 @@ class ChinaTV extends React.Component{
     constructor(){
         super()
         this.state = {
-            tvs : ['Mi TV Xiaomi','Haier','TCL','Realme']
+            tvs : ['Mi TV Xiaomi','Haier','TCL','Realme','OnePlus']
         }
     }
     render(){

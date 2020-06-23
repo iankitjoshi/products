@@ -10,7 +10,7 @@ class ChinaFunds extends React.Component{
     render(){
         return(
             <div>
-                <h2 className="mobile-list"><u>China Funds in Major Indian Companies -</u></h2>
+                <h2 className="mobile-list"><u>China's Funds in Major Indian Startups-</u></h2>
                 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
 

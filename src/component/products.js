@@ -7,8 +7,8 @@ function Products(){
             <div className="list-div  list-group">
                 <ul>
                     <a href="/mobiles" className="lists  list-group-item list-group-item-action"><li className="li-tags-product"> Mobile Phones </li></a>
-                    <a href="/apps" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">Applicatios </li></a>
-                    <a href="/funds" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">Funded Company from China</li></a>
+                    <a href="/apps" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">Applications </li></a>
+                    <a href="/funds" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">China's Funds in Indian Startups</li></a>
                     <a href="/tvs" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">Televisions</li></a>
                     <a href="/others" className="lists  list-group-item list-group-item-action"><li className="li-tags-product">Other Products and E-Commerce</li></a>
                 </ul>
