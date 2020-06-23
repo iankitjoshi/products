@@ -12,7 +12,6 @@ import ChinaFunds from './component/ChinaFund'
 import ChinaTV from './component/ChinaTV';
 import ChinaOthers from './component/ChinaOthers'
 import IndianProducts from './component/indianProducts';
-import { hotjar } from 'react-hotjar'
 import ReactGA from 'react-ga'
 const img = require('./assets/indianflag.png')
 
