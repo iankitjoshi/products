@@ -23,8 +23,13 @@ function App(props){
     } , [])
     return (
         <BrowserRouter>
-        
+                
+         <meta name="Description" content="Be Indian Be Unite , Use indian Products  Boycott China and Chinese Products Remove China from our life, Support India and Indian Products,Delete all Chinese app Boycott China" />
 
+        <meta name="Keywords" content=" Chinese product all list in India, Chinese companies in India,Be indain Be Unite, Indian products all, Aatmnibhar Bharat, list, Indian products list and Companies Chinese apps in India, Remove China, Chinese apps remover, Chinese TV list, Be Indian, Chinese Mobile List, Chinese funded startup in India, Chinese Boycott China Product,Chinese product in india" />
+
+        <meta name="google-site-verification" content="hpHvYR4BcCiKX19Jzqinw2A7bUNIt16HfEPFLcjj4W4" />
+        <script data-ad-client="ca-pub-8078899846411337" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
 
         <img src={img} alt="flag" className="indian-flag" /> <br />
