@@ -1,5 +1,6 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import { BrowserRouter, Route, } from 'react-router-dom'
+import './design.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './component/Home'
@@ -11,10 +12,16 @@ import ChinaFunds from './component/ChinaFund'
 import ChinaTV from './component/ChinaTV';
 import ChinaOthers from './component/ChinaOthers'
 import IndianProducts from './component/indianProducts';
+import { hotjar } from 'react-hotjar'
+import ReactGA from 'react-ga'
 const img = require('./assets/indianflag.png')
-import('././design.css')
+
 
 function App(props){
+     useEffect(() => {
+        ReactGA.initialize('UA-170496220-1')
+        ReactGA.pageview('/')
+    } , [])
     return (
         <BrowserRouter>
         
@@ -28,7 +35,7 @@ function App(props){
 
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light nav-css">
-                <div class="collapse navbar-collapse nav2-css" id="navbarText">
+                <div class="navbar-collapse nav2-css" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/"><h5 className="nav-home"> Home</h5> <span class="sr-only">(current)</span></a>
