@@ -10,7 +10,7 @@
     "bootstrap": "^4.5.0",
     "npm-install": "^1.4.1",
     "react": "^16.13.1",
-    "react-dev-utils": "^10.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.1",
     "react-ga": "^3.0.0",
     "react-hotjar": "^2.2.0",
